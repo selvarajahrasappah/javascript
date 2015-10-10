@@ -37,7 +37,7 @@ describe('Calculator', function() {
     document.getElementById('x').value = 'hello';
     document.getElementById('y').value = 2;
     document.getElementById('add').click();
-    expect(document.getelementById('result').innerHTML).toBe('0';)
+    expect(document.getelementById('result').innerHTML).toBe('0');
   });
 
   it('should calculate zero for invalid y value', function() {
